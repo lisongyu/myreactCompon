@@ -7,12 +7,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button>Hello</Button>
+        <Button className="custom">Hello</Button>
+        <Button disabled>Disabled Hello</Button>
         <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>
-          Hello
+          Large
         </Button>
-        <Button disabled btnType={ButtonType.Link} href="http://www.baidu.com">
+        <Button btnType={ButtonType.Link} href="http://www.baidu.com">
           Baidu link
+        </Button>
+        <Button disabled btnType={ButtonType.Link} href="http://www.baidu.com"
+         
+        >
+          disabled link
         </Button>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
