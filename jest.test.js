@@ -9,5 +9,5 @@
   })
 
   test('test number', ()=>{
-    expoct(4).toBe
+    expoct(4).toBeTruthy()
   })
