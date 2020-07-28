@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Button, { ButtonSize, ButtonType } from "./components/Button/button";
 import Menu from './components/Menu/menu'
@@ -9,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Menu defaultIndex={0} onSelect={(index)=>{alert(index)}}>
+        <Menu defaultIndex={0} mode="vertical" onSelect={(index)=>{alert(index)}}>
           <MenuItem index={0}>
             cool link
           </MenuItem>
