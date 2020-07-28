@@ -29,7 +29,6 @@ const generateMenu = (props:MenuProps) =>{
     </Menu>
   )
 }
-
 let wrapper:RenderResult,
  menuElement:HTMLElement,
  activeElement:HTMLElement,
